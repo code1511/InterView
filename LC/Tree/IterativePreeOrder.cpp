@@ -6,20 +6,25 @@
 // ….c) Push left child of a popped item to stack
 // The right child is pushed before the left child to make sure that the left subtree is processed first
 
- vector<int> preorderTraversal(TreeNode* root) {
-        vector<int> nodes;
-        stack<TreeNode*> todo;
-        while (root || !todo.empty()) {
-            if (root) {
-                nodes.push_back(root -> val);
-                if (root -> right) {
-                    todo.push(root -> right);
+class Solution {
+public:
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int>ans;
+        stack<TreeNode*>s;
+        while(root || !s.empty()){
+            //if root is not null
+            if(root){
+                ans.push_back(root->val);
+                //if right node of root is not null then push it to the stack
+                if(root->right){
+                    s.push(root->right);
                 }
-                root = root -> left;
-            } else {
-                root = todo.top();
-                todo.pop();
+                root=root->left;
+            }else{
+                root=s.top();
+                s.pop();
             }
         }
-        return nodes;
+        return ans;
     }
+};
