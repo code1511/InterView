@@ -1,1 +1,8 @@
-<h1>Runtime Errors</h1>
+Runtime Errors
+A runtime error in a program is an error that occurs while the program is running after being successfully compiled
+ logical errors, Input/Output errors, undefined object errors, division by zero errors
+ 
+SIGFPE: SIGFPE is a floating-point error. It is virtually always caused by a division by 0. There can be mainly three main causes of SIGFPE error described as follows:
+Division by Zero.
+Modulo Operation by Zero.
+Integer Overflow.
