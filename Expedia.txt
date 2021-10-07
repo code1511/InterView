@@ -1,0 +1,14 @@
+1) DSA
+     1)LInked List
+     2)Tree
+     3)Dp
+     4)Dfs & Bfs
+     5)Hash + Greedy
+     6)SOrting+ searching
+     
+2)OOPs
+3)CS Fundamentals
+4)System desing
+5)HR
+6)Projects
+7)Resume
