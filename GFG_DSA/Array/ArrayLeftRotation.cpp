@@ -60,3 +60,33 @@ int main()
     }
     return 0;
 }
+
+/*
+block reversal algorithm without space and most optimized approach
+time- N-d+d+N
+overall time -O(N)
+space-O(1)
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+void nrotation(vector<int>&v,int d){
+    reverse(v.begin(),v.begin()+d);
+    reverse(v.begin()+d,v.end());
+    reverse(v.begin(),v.end());
+}
+int main()
+{
+   vector<int>v={1,2,3,4,5,6,7};
+   int n=v.size();
+   
+   for(auto i:v){
+       cout<<i<<" ";
+   }
+   nrotation(v,4);
+    cout<<"after rotation"<<endl;
+    for(auto i:v){
+        cout<<i<<" ";
+    }
+    return 0;
+}
