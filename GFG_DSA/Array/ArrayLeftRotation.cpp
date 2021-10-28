@@ -33,3 +33,30 @@ int main()
     }
     return 0;
 }
+/*
+using O(N) extra space but the time complexity would be O(N) linear time
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+void nrotation(vector<int>&v,int d){
+    vector<int>p(v.begin(),v.begin()+d);
+    vector<int>q(v.begin()+d,v.end());
+    q.insert(q.end(),p.begin(),p.end());
+    v=q;
+}
+int main()
+{
+   vector<int>v={1,2,3,4,5,6,7};
+   int n=v.size();
+   
+   for(auto i:v){
+       cout<<i<<" ";
+   }
+   nrotation(v,4);
+    cout<<"after rotation"<<endl;
+    for(auto i:v){
+        cout<<i<<" ";
+    }
+    return 0;
+}
