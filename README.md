@@ -1,6 +1,14 @@
 DSA + Algo
 
 A kind of Question bank for my interview prep
+<h2>so many times interviewer ask 𝗗𝗼 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮𝗻𝘆 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀? </h2>
+<h6>
+1) Can you explain how a typical day would be in this role? <br>
+2) How does your team approach problems? <br>
+3) which DB are you using?	<br>
+4)how do you handle requests during peak hours?
+
+</h6>
 
 <h2>Web Cache </h2>
 <p>
