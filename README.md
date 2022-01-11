@@ -24,6 +24,27 @@ A kind of Question bank for my interview prep
 	<li>Remove Duplicates from Sorted List </li>
 	<li>Design Linked List </li>
 </ul>
+<h3> Tree </h3>
+<ul>
+<li></li>
+<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
 <h2>so many times interviewer ask 𝗗𝗼 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮𝗻𝘆 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀? </h2>
 <h6>
 1) Can you explain how a typical day would be in this role? <br>
